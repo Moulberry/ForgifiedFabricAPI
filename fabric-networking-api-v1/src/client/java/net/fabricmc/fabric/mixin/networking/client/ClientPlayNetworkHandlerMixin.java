@@ -16,7 +16,6 @@
 
 package net.fabricmc.fabric.mixin.networking.client;
 
-import net.fabricmc.fabric.api.client.networking.v1.C2SPlayChannelEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl;
@@ -27,7 +26,6 @@ import net.minecraft.network.protocol.game.ClientboundLoginPacket;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.network.registration.ChannelAttributes;
 import org.sinytra.fabric.networking_api.client.NeoClientCommonNetworking;
-import org.sinytra.fabric.networking_api.client.NeoClientPacketSender;
 import org.sinytra.fabric.networking_api.client.NeoClientPlayNetworking;
 import org.sinytra.fabric.networking_api.NeoListenableNetworkHandler;
 import org.spongepowered.asm.mixin.Mixin;
